@@ -1,0 +1,4 @@
+NUM = int (input ("INGRESA UN NUMERO ENTERO:"))
+CUA = NUM ** 2
+CUB = NUM ** 3
+print(f"EL CUADRADO DEL NUMERO {NUM} ES: {CUA} Y EL CUBO DE {NUM} ES {CUB}")
