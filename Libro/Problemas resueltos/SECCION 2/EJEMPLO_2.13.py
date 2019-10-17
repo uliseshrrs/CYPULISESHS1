@@ -1,0 +1,15 @@
+MAT=int(input("INGRESA TU MATRICULA:"))
+CARR=str(input("INGRESA LA CARREARA A LA QUE QUIERES INGRESAR:"))
+SEM=int(input("INGRESA TU SEMESTRE:"))
+PROM=float(input("INGRSA TU PROMEDIO:"))
+if CARR=='ECONOMIA' :
+    if SEM >= 6 and PROM >= 8.8 :
+     print(f"EL ALUMNO CON LA MATRICULA:{MAT} EN LA CARRERA: {CARR}, HA SIDO ACEPTADO")
+elif CARR == 'COMPUTACION':
+        if SEM>6 and PROM>8.5 :
+            print(f"EL ALUMNO CON LA MATRICULA:{MAT} EN LA CARRERA: {CARR}, HA SIDO ACEPTADO")
+elif CARR == 'CONTABILIDAD' or CARR == 'ADMINISTRACION':
+                if SEM> 5 and PROM> 8.5 :
+                 print(f"EL ALUMNO CON LA MATRICULA:{MAT} EN LA CARRERA: {CARR}, HA SIDO ACEPTADO")
+                 print("FIN DEL PROGRAMA")
+    
