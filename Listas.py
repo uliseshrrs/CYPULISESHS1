@@ -16,6 +16,7 @@ print(sueldos)
 for indice in range(7):
      suma+=sueldos[indice]
 pomedio = suma / 7
+print("El promedio de sueldos es{promedio}")
 cont = 0
 for indice in range (7):
     if sueldos [indice]> promedio:
